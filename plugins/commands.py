@@ -77,7 +77,7 @@ async def start(client, message):
                     "❆ Jᴏɪɴ Oᴜʀ Bᴀᴄᴋ-Uᴘ Cʜᴀɴɴᴇʟ ❆", url=invite_link.invite_link
                 )
             ],[
-                    InlineKeyboardButton('adinan', url=CHNL_LNK)
+                    InlineKeyboardButton("adinan", url=CHNL_LNK)
                   ]
         ]
 
