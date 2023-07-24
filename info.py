@@ -22,6 +22,8 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/50b30d48ed6b6c0b35eb7.jpg https://telegra.ph/file/eea77a568b0c44b7cac0f.jpg https://telegra.ph/file/d7632be56e0c8055107a5.jpg https://telegra.ph/file/b6a109e484cf957319544.jpg https://telegra.ph/file/a16be5a8566bf13c9cb81.jpg https://telegra.ph/file/ab77b85b4a403cc4bc946.jpg https://telegra.ph/file/3af415e8d5f0772aec82d.jpg https://telegra.ph/file/eaea02e39f50d6415b1d1.jpg https://telegra.ph/file/197d3dbcaf8c9a529dba0.jpg https://telegra.ph/file/9a394f50db101452475f1.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/ff24d642faf98ab93a010.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 
 # Admins, Channels & Users
