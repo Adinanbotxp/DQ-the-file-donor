@@ -149,15 +149,10 @@ async def next_page(bot, query):
             ]
             for file in files
         ]
-    btn.insert(0, 
-        [
-            InlineKeyboardButton(f'🎬 {search} 🎬', 'reqst')
-        ]
-    )
+    
     btn.insert(1,
         [
-            InlineKeyboardButton(f"📟 ꜰɪʟᴇꜱ: {total_results}", callback_data="mm"),
-            InlineKeyboardButton(f'🎁 ᴛɪᴩꜱ', 'minfo'),
+            
             InlineKeyboardButton(f'📨 ɪɴꜰᴏ', 'reqinfo')
         ]
     )
@@ -303,15 +298,10 @@ async def language_check(bot, query):
                 ]
                 for file in files
             ]
-        btn.insert(0, 
-            [
-                InlineKeyboardButton(f'🎬 {search} 🎬', 'reqst')
-            ]
-        )
+        
         btn.insert(1,
             [
-                InlineKeyboardButton(f"📟 ꜰɪʟᴇꜱ: {total_results}", callback_data="mm"),
-                InlineKeyboardButton(f'🎁 ᴛɪᴩꜱ', 'minfo'),
+                
                 InlineKeyboardButton(f'📨 ɪɴꜰᴏ', 'reqinfo')
             ]
         )
@@ -1506,15 +1496,10 @@ async def auto_filter(client, msg, spoll=False):
             ]
             for file in files
         ]
-    btn.insert(0, 
-        [
-            InlineKeyboardButton(f'🎬 {search} 🎬', 'reqst')
-        ]
-    )
+    
     btn.insert(1,
         [
-            InlineKeyboardButton(f"📟 ꜰɪʟᴇꜱ: {total_results}", callback_data="mm"),
-            InlineKeyboardButton(f'🎁 ᴛɪᴩꜱ', 'minfo'),
+            
             InlineKeyboardButton(f'📨 ɪɴꜰᴏ', 'reqinfo')
         ]
     )
