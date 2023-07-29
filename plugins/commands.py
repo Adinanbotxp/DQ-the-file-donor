@@ -32,7 +32,7 @@ async def start(client, message):
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
                     
                 ],[
-                    InlineKeyboardButton('📢 Uᴘᴅᴀᴛᴇs 📢', url=CHNL_LNK)
+                    InlineKeyboardButton(' Uᴘᴅᴀᴛᴇs ', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgIAAxkBAAICbmR_9kyaUVttQb-BuLR-409R6gjNAAIoFgACsA6hS5L1qhVlD1HxHgQ")
@@ -65,7 +65,7 @@ async def start(client, message):
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
                     
                 ],[
-                    InlineKeyboardButton('📢 Uᴘᴅᴀᴛᴇs 📢', url=CHNL_LNK)
+                    InlineKeyboardButton(' Uᴘᴅᴀᴛᴇs ', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgIAAxkBAAICbmR_9kyaUVttQb-BuLR-409R6gjNAAIoFgACsA6hS5L1qhVlD1HxHgQ")
@@ -117,7 +117,7 @@ async def start(client, message):
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
                     
                 ],[
-                    InlineKeyboardButton('📢 Uᴘᴅᴀᴛᴇs 📢', url=CHNL_LNK)
+                    InlineKeyboardButton(' Uᴘᴅᴀᴛᴇs ', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgIAAxkBAAICbmR_9kyaUVttQb-BuLR-409R6gjNAAIoFgACsA6hS5L1qhVlD1HxHgQ")
