@@ -1033,15 +1033,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                  
-                    InlineKeyboardButton('⌬ Sᴜᴘᴘᴏʀᴛ', url=GRP_LNK),
-                    InlineKeyboardButton('Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('🍁 Uᴘᴅᴀᴛᴇs ', url=CHNL_LNK),
+                    InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ', url=GRP_LNK),
                 ],[
-                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('❗ Hᴇʟᴘ', callback_data='help'),
+                    InlineKeyboardButton('🕵️‍♂️ Aʙᴏᴜᴛ', callback_data='about')
                     
                 ],[
-                    InlineKeyboardButton(' Uᴘᴅᴀᴛᴇs ', url=CHNL_LNK)
+                    InlineKeyboardButton('Sᴇᴀʀᴄʜ 🔎', switch_inline_query_current_chat='')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
