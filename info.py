@@ -1,4 +1,4 @@
-niimport re
+import re
 from os import environ
 from Script import script 
 
@@ -10,6 +10,7 @@ def is_enabled(value, default):
         return False
     else:
         return default
+        
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
